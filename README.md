@@ -1,6 +1,6 @@
 # Java Tetris Server
 
-In this homework, we will refactor and convert our Java Tetris game into a training server for reinforcment learining. The Python test code can be found in the ([Colab notebook]([https://zetcode.com/javagames/tetris/](https://colab.research.google.com/drive/14mas2qTCY4FrLNn7-CB4rK-yoPJaHY3I?usp=sharing))). The Tetris server is multi-threaded and each thread has its own Tetris game. The client connects to the server, controls its own game with ASCII commands, and receives game status and screenshots from the server. The server **TetrisMTServer.java** is ready and fully functional. Our goal is to complete the Java client **TetrisTestTCPClient*.java* and pass 4 unit tests.
+In this homework, we will refactor and convert our Java Tetris game into a training server for reinforcment learining. The source code is adapted from [ZetCode](https://zetcode.com/javagames/tetris/). The Python test code can be found in the ([Colab notebook](https://colab.research.google.com/drive/14mas2qTCY4FrLNn7-CB4rK-yoPJaHY3I?usp=sharing)). The Tetris server is multi-threaded and each thread has its own Tetris game. The client connects to the server, controls its own game with ASCII commands, and receives game status and screenshots from the server. The server **TetrisMTServer.java** is ready and fully functional. Our goal is to complete the Java client **TetrisTestTCPClient.java** and pass 4 unit tests.
 
 ## Communication Protocol
 
